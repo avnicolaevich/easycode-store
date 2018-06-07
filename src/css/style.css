@@ -1,16 +1,21 @@
-/* implement roboto font to reboot file */
-/* Default classes start */
+/* ===== Default classes start ===== */
 .bg-dark-blue {
 	background-color: #263238;
 }
-.bg-orange {
+.bg-light-orange {
 	background-color: #fcb322;
 }
-.bg-red {
+.bg-orange {
 	background-color: #ef6c00;
 }
-.bg-green {
+.bg-red {
+	background-color: #e74c3c;
+}
+.bg-light-green {
 	background-color: #95c85a;
+}
+.bg-green {
+	background-color: #8bc34a;
 }
 .ml-auto {
 	margin-left: auto;
@@ -35,16 +40,38 @@
 .text-center {
 	text-align: center;
 }
-/* Default classes end */
+.btn {
+	display: inline-block;
+	color: #fff;
+	font-family: 'robotoregular', sans-serif;
+	border-radius: 3px;
+	line-height: 1em;
+	cursor: pointer;
+}
+/* ===== Default classes end ===== */
 
-/* Custom styles start */
-/* header start */
+/* ===== Custom styles start ===== */
+/* Header start */
 .top-header {
 	padding-top: 26px;
 	padding-bottom: 26px;
 }
 .user-controls {
-	margin-left: 53px;
+	margin-left: 28px;
+}
+.need-help {
+	font-size: 0.9375rem;
+}
+.need-help > span,
+.need-help > span a {
+	color: #546e7a;
+}
+.need-help > span:first-of-type {
+	color: #e74c3c;
+}
+.need-help > span a:hover,
+.need-help > span a:focus {
+	text-decoration: none;
 }
 .dropdown-item + .dropdown-item {
 	margin-left: 16px;
@@ -74,19 +101,110 @@
 .user-dropdown-control {
 	margin-left: 20px;
 }
+.user-dropdown-control .user-info-wrap {
+	margin-left: 15px;
+}
+.user-info-wrap h6 {
+	font-family: 'robotomedium', sans-serif;
+	font-size: 0.875rem;
+	color: #000;
+	line-height: 1em;
+	font-weight: normal;
+}
+.user-info-wrap h6 .fas {
+    color: #707070;
+	line-height: 1em;
+	font-size: 0.8rem;
+	font-weight: 600;
+	vertical-align: bottom;
+	margin-left: 15px;
+	cursor: pointer;
+}
+.user-info-wrap .balance {
+	font-family: 'robotobold', sans-serif;
+	font-size: 0.875rem;
+	color: #8bc34a;
+	line-height: 1em;
+}
 .user-avatar {
 	width: 34px;
 	height: 34px;
 	border-radius: 50%;
 }
-/* bottom-header pt pb */
-/* header end */
-
-/* inner start */
+.btn.logout-btn {
+	font-size: 0.75rem;
+	padding: 11px 17px;
+}
+.user-controls .logout-btn {
+	margin-left: 30px;
+}
+.btn.login-btn {
+	font-size: 0.75rem;
+	padding: 10px 22px;
+}
+.user-controls .login-btn {
+	margin-left: 26px;
+}
+.btn.register-btn {
+	font-size: 0.75rem;
+	padding: 10px 14px;
+}
+.user-controls .register-btn {
+	margin-left: 7px;
+}
+.bottom-header {
+	padding-top: 23px;
+	padding-bottom: 23px;
+}
+.header-nav {
+	line-height: 1em;
+}
+.header-nav a {
+	font-family: 'robotomedium', sans-serif;
+	font-size: 0.875rem;
+	color: #fff;
+	line-height: 1em;
+}
+.header-nav a:hover,
+.header-nav a:focus {
+	text-decoration: none;
+}
+.header-nav a + a {
+	margin-left: 36px;
+}
+/* Header end */
+/* Inner start */
 .inner.small-inner {
-	padding-top: 57px;
-	padding-bottom: 67px;
-	background: url("../img/small-inner-bg.jpg") no-repeat center / cover;
+	padding-top: 60px;
+	padding-bottom: 70px;
+	background: url("../img/small-inner-bg.jpg") no-repeat bottom / cover;
+}
+.inner.big-inner {
+	padding-top: 155px;
+	padding-bottom: 175px;
+	background: url("../img/big-inner-bg.jpg") no-repeat center / cover;
+}
+.inner-title {
+	font-family: 'robotobold', sans-serif;
+	font-size: 3rem;
+	color: #fff;
+	line-height: 1em;
+}
+.inner.big-inner .inner-title {
+	margin-bottom: 35px;
+}
+.inner-subtitle {
+	font-family: 'robotomedium', sans-serif;
+	font-size: 1.25rem;
+	color: #fff;
+	line-height: 30px;
+	font-weight: normal;
+}
+.inner.big-inner .inner-subtitle {
+	margin-bottom: 55px;
+}
+.inner.small-inner .inner-subtitle {
+	margin-bottom: 20px;
 }
 .search-wrap {
 	position: relative;
@@ -103,18 +221,23 @@
 	background-color: #fff;
 	box-shadow: 1px 1px 10px rgba(100, 100, 100, .75);
 }
+.search-input:focus {
+	box-shadow: 1px 1px 10px rgba(124, 178, 64, .75);
+}
 .search-input-btn {
 	position: absolute;
 	font-size: 20px;
 	right: 20px;
-	top: 0;
+	top: 12px;
 	color: #7c939f;
 	background-color: transparent;
 }
-.search-input::-webkit-input-placeholder {
+*::-webkit-input-placeholder {
+	font-family: 'robotomedium', sans-serif;
+	font-size: 0.875rem;
+	line-height: 30px;
 	color: #90a4ae;
+	letter-spacing: .05em;
 }
-/* placeholder create color add */
-/* inner end */
-
-/* Custom styles end */
+/* Inner end */
+/* ===== Custom styles end ===== */
