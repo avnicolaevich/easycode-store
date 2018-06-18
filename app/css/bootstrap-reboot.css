@@ -360,4 +360,12 @@ template {
 [hidden] {
   display: none !important;
 }
+
+.dropdown-menu[x-placement^="top"],
+.dropdown-menu[x-placement^="right"],
+.dropdown-menu[x-placement^="bottom"],
+.dropdown-menu[x-placement^="left"] {
+	right: auto;
+	bottom: auto;
+}
 /*# sourceMappingURL=bootstrap-reboot.css.map */
