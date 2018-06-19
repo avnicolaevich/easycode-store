@@ -697,6 +697,7 @@
 	justify-content: space-between;
 }
 .product-sales-quantity > i {
+	cursor: pointer;
 	color: #a6b5bb;
 	margin-right: 20px;
 }
@@ -765,7 +766,7 @@
 	padding: 20px 10px;
 	text-align: center;
 	display: block;
-	border: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
 	position: relative;
 }
 .nav-link:hover,
