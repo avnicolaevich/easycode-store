@@ -29,6 +29,9 @@
 .bg-blue {
 	background-color: #4f71ce;
 }
+.bg-breeze {
+	background-color: #42a5f5;
+}
 .bg-dark-red {
 	background-color: #d32f2f;
 }
@@ -603,6 +606,88 @@
 .product-social a + a {
 	margin-left: 3px;
 }
+.more-product {
+	margin-top: 52px;
+	margin-bottom: 28px;
+	padding: 16px 27px 18px 27px;
+	background-color: #fff;
+}
+.more-product h4 {
+	font-family: 'robotomedium', sans-serif;
+	font-size: 1.125rem;
+	line-height: 24px;
+	color: #263238;
+}
+.more-product-card {
+	background-color: #fff;
+	margin-bottom: 30px;
+	box-shadow: 0 1px 2px rgba(205, 214, 222, .75);
+}
+.more-product-avatar img {
+	width: 100%;
+}
+.more-product-info {
+	padding-left: 21px;
+	padding-right: 21px;
+}
+.more-product-info h5 {
+	font-family: 'robotomedium', sans-serif;
+	font-size: 0.875rem;
+	color: #263238;
+}
+.more-product-info h6 {
+	font-size: 0.75rem;
+	color: #8bc34a;
+}
+.more-product-price {
+	font-family: 'robotobold', sans-serif;
+	font-size: 1.125rem;
+	color: #263238;
+}
+.aside-product-price {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.aside-section .product-btn {
+	width: 100%;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	box-shadow: 0 1px 2px rgba(205, 214, 222, .75);
+}
+.aside-section a + a {
+	margin-top: 8px;
+}
+.aside-section .product-btn > i {
+	margin-right: 9px;
+}
+.aside-product-price > span {
+	font-family: 'robotomedium', sans-serif;
+	font-size: 1.375rem;
+	line-height: 40px;
+	color: #e74c3c;
+}
+.aside-product-price .custom-select {
+	font-size: 0.8125rem;
+	color: #70838d;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.aside-author-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 14px;
+}
+.aside-author-info h5 {
+	font-size: 1.125rem;
+	color: #263238;
+}
+.btn.view-btn {
+	font-size: 0.75rem;
+	color: #707070;
+	padding: 7px 11px 9px;
+}
 /* product details end */
 /* product tabs start */
 .product-tabs {
@@ -669,4 +754,7 @@
 	background-color: #8bc34a;
 }
 /* product tabs end */
+/* select start*/
+
+/* select end*/
 /* ===== Custom styles end ===== */
