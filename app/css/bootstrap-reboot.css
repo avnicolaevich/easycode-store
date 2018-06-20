@@ -11,7 +11,7 @@
          url('../fonts/roboto-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-	font-display: swap;
+    font-display: swap;
 }
 @font-face {
     font-family: 'robotomedium';
@@ -19,7 +19,7 @@
          url('../fonts/roboto-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-	font-display: swap;
+    font-display: swap;
 }
 @font-face {
     font-family: 'robotoregular';
@@ -27,7 +27,31 @@
          url('../fonts/roboto-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-	font-display: swap;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../fonts/raleway-bold-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'latosemibold';
+    src: url('../fonts/lato-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 *,

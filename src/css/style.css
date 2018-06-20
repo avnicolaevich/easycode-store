@@ -114,7 +114,6 @@
 }
 .list-text {
 	font-size: 0.9375rem;
-	line-height: 40px;
 	color: #263238;
 }
 .card {
@@ -336,9 +335,12 @@
 	color: #263238;
 }
 .dropdown-notify-item {
-	padding: 18px 30px 21px;
+	padding: 19px 30px;
 	min-width: 268px;
 	transition: all .2s ease-in;
+}
+.dropdown-notify-item + .dropdown-notify-item {
+	border-top: 1px solid #e0e0e0;
 }
 .dropdown-item .dropdown-notify-item > i {
 	align-self: flex-start;
@@ -459,9 +461,11 @@
 	font-size: 0.875rem;
 	color: #fff;
 	line-height: 1em;
+	transition: all .2s ease-in;
 }
 .header-nav a:hover,
 .header-nav a:focus {
+	color: red;
 	text-decoration: none;
 }
 .header-nav a + a {
@@ -595,6 +599,7 @@
 /* all-items end */   
 /* product details start */
 .product-baner {
+	background-color: #fff;
 	padding: 18px 19px;
 	border: 1px solid #dedede;
 }
@@ -870,6 +875,81 @@ textarea.form-control {
 #footer {
 	padding-top: 115px;
 }
+.footer-title {
+	font-family: 'ralewaybold', sans-serif;
+	font-size:	1.375rem;
+	color: #fff;
+	line-height: 1em;
+}
+.footer-title::after {
+	content: "";
+	display: block;
+	width: 51px;
+	height: 3px;
+	margin-top: 23px;
+	background-color: #8bc34a;
+}
+.footer-text {
+	font-size: 0.9375rem;
+	color: #b7c3c8;
+	line-height: 24px;
+	margin-top: 32px;
+	margin-bottom: 30px;
+}
+.footer-address,
+.footer-phone a {
+	font-family: 'latosemibold', sans-serif;
+	font-size: 0.875rem;
+	color: #fff;
+	line-height: 24px;
+}
+.footer-address {
+	margin-bottom: 20px;
+}
+.footer-address > i,
+.footer-phone > i {
+	font-size: 1.125rem;
+	color: #8bc34a;
+	line-height: 24px;
+}
+.footer-address > i {
+	margin-right: 20px;
+}
+.footer-phone > i {
+	transform: rotate(90deg);
+	margin-right: 12px;
+}
+.footer-chevron-list {
+	margin-top: 27px;
+}
+.footer-chevron-list li {
+	line-height: 36px;
+}
+.footer-chevron-list li > i {
+	font-size: 0.8rem;
+	margin-right: 16px;
+	color: #8bc34a;
+}
+.footer-chevron-list li > a {
+	font-size: 0.9375rem;
+	color: #b7c3c8;
+}
+.footer-social {
+	margin-top: 35px;
+	margin-bottom: 40px;
+}
+.footer-social li + li {
+	margin-left: 7px;
+}
+.footer-social li > a {
+	display: block;
+}
+.footer-subscribe-title {
+	font-size: 1.25rem;
+	color: #fff;
+	line-height: 1em;
+	margin-bottom: 18px;
+}
 .subscribe-form-wrapper {
 	display: inline-block;
 	background: linear-gradient(to bottom, #000 0%, #263238 100%);
@@ -879,12 +959,27 @@ textarea.form-control {
 	width: 216px;
 	height: 37px;
 	background-color: #2f3c43;
+	padding-left: 15px;
+}
+.subscribe-form-wrapper form > input::-webkit-input-placeholder {
+	font-size: 0.875rem;
+	color: #697378;
 }
 .subscribe-form-wrapper button {
 	font-size: 1.15rem;
 	padding: 9px 13px;
 	color: #fff;
 	line-height: 1;
+}
+.footer-copyright {
+	display: block;
+	font-size: 0.9375rem;
+	color: #919699;
+	line-height: 1em;
+	text-align: center;
+	padding: 27px 0 32px;
+	border-top: 1px solid #919699;
+	margin-top: 100px;
 }
 /* footer end*/
 /* ===== Custom styles end ===== */
