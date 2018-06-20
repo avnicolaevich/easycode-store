@@ -48,7 +48,7 @@
 					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuBell">
 						<a href="#" class="dropdown-notify-item d-flex align-items-center">
 							<div class="notify-item-avatar">
-								<img src="img/notify-avatar.png" alt="">
+								<img src="img/notify-avatar.png" alt="User">
 							</div>
 							<!-- /.notify-item-avatar -->
 							<div class="notify-item-info">
@@ -61,7 +61,7 @@
 						<!-- /.dropdown-notify-item -->
 						<a href="#" class="dropdown-notify-item d-flex align-items-center">
 							<div class="notify-item-avatar">
-								<img src="img/notify-avatar.png" alt="">
+								<img src="img/notify-avatar.png" alt="User">
 							</div>
 							<!-- /.notify-item-avatar -->
 							<div class="notify-item-info">
@@ -74,7 +74,7 @@
 						<!-- /.dropdown-notify-item -->
 						<a href="#" class="dropdown-notify-item d-flex align-items-center">
 							<div class="notify-item-avatar">
-								<img src="img/notify-avatar.png" alt="">
+								<img src="img/notify-avatar.png" alt="User">
 							</div>
 							<!-- /.notify-item-avatar -->
 							<div class="notify-item-info">
@@ -98,7 +98,7 @@
 					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuEnvelope">
 						<a href="#" class="dropdown-notify-item d-flex align-items-center">
 							<div class="notify-item-avatar">
-								<img src="img/notify-avatar.png" alt="">
+								<img src="img/notify-avatar.png" alt="User">
 							</div>
 							<!-- /.notify-item-avatar -->
 							<div class="notify-item-info">
@@ -112,7 +112,7 @@
 						<!-- /.dropdown-notify-item -->
 						<a href="#" class="dropdown-notify-item d-flex align-items-center">
 							<div class="notify-item-avatar">
-								<img src="img/notify-avatar.png" alt="">
+								<img src="img/notify-avatar.png" alt="User">
 							</div>
 							<!-- /.notify-item-avatar -->
 							<div class="notify-item-info">
@@ -126,7 +126,7 @@
 						<!-- /.dropdown-notify-item -->
 						<a href="#" class="dropdown-notify-item d-flex align-items-center">
 							<div class="notify-item-avatar">
-								<img src="img/notify-avatar.png" alt="">
+								<img src="img/notify-avatar.png" alt="User">
 							</div>
 							<!-- /.notify-item-avatar -->
 							<div class="notify-item-info">
@@ -143,20 +143,76 @@
 				</div>
 				<!-- /.dropdown-item -->
 				<div class="dropdown-item">
-					<div class="dropdown-control d-flex">
+					<div class="dropdown-control d-flex" id="dropdownMenuShopping" data-toggle="dropdown">
 						<i class="fas fa-shopping-cart mx-auto my-auto"></i>
 						<span class="notify-count bg-green">8</span>
 					</div>
 					<!-- /.dropdown-control d-flex -->
+					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuShopping">
+						<a href="#" class="dropdown-notify-item d-flex align-items-center">
+							<div class="notify-item-avatar">
+								<img src="img/dropdown-cart-avatar.jpg" alt="User">
+							</div>
+							<!-- /.notify-item-avatar -->
+							<div class="notify-item-info">
+								<h4>Grand Ballet</h4>
+								<h6>WordPress</h6>
+								<span class="notify-price">$59</span>
+							</div>
+							<!-- /.notify-item-info -->
+						</a>
+						<!-- /.dropdown-notify-item -->
+						<a href="#" class="dropdown-notify-item d-flex align-items-center">
+							<div class="notify-item-avatar">
+								<img src="img/dropdown-cart-avatar.jpg" alt="User">
+							</div>
+							<!-- /.notify-item-avatar -->
+							<div class="notify-item-info">
+								<h4>Apple Device </h4>
+								<h6>WordPress</h6>
+								<span class="notify-price">$59</span>
+							</div>
+							<!-- /.notify-item-info -->
+						</a>
+						<!-- /.dropdown-notify-item -->
+						<a href="#" class="dropdown-notify-item d-flex">
+							<div class="notify-item-result d-flex">
+								<span>Total</span>
+								<span class="ml-auto">$118</span>
+							</div>
+							<!-- /.notify-item-info -->
+						</a>
+						<!-- /.dropdown-notify-item -->
+						<div class="dropdown-buttons-wrap d-flex">
+							<a href="#" class="btn notify-btn bg-green">Go to Cart</a>
+							<a href="#" class="btn notify-btn bg-red">Go to Checkout</a>
+						</div>
+						<!-- /.dropdown-buttons-wrap -->
+					</div>
+					<!-- /.dropdown-menu -->
 				</div>
 				<!-- /.dropdown-item -->
 				<div class="user-dropdown-control d-flex align-items-center">
 					<img src="img/user-avatar.png" alt="" class="user-avatar">
-					<div class="user-info-wrap">
+					<div class="user-info-wrap" id="dropdownMenuProfile" data-toggle="dropdown">
 						<h6>Mike Hussy <i class="fas fa-chevron-down"></i></h6>
 						<span class="balance">$171.00</span>
 					</div>
 					<!-- /.user-info-wrap -->
+					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuProfile">
+						<ul class="dropdown-chevron-list">
+							<li class="d-flex align-items-center"><i class="fas fa-chevron-right"></i><a href="#">Profile Page</a></li>
+							<li class="d-flex align-items-center"><i class="fas fa-chevron-right"></i><a href="#">Profile</a></li>
+							<li class="d-flex align-items-center"><i class="fas fa-chevron-right"></i><a href="#">Account Setting</a></li>
+							<li class="d-flex align-items-center"><i class="fas fa-chevron-right"></i><a href="#">Downloads</a></li>
+							<li class="d-flex align-items-center"><i class="fas fa-chevron-right"></i><a href="#">Wishlist</a></li>
+							<li class="d-flex align-items-center"><i class="fas fa-chevron-right"></i><a href="upload-product.html">Upload Item</a></li>
+							<li class="d-flex align-items-center"><i class="fas fa-chevron-right"></i><a href="#">Statement</a></li>
+							<li class="d-flex align-items-center"><i class="fas fa-chevron-right"></i><a href="#">Withdraws</a></li>
+						</ul>
+						<!-- /.footer-chevron-list -->
+					</div>
+					<!-- /.dropdown-menu -->
 				</div>
 				<!-- /.user-dropdown-control d-flex align-items-center -->
 				<button class="btn logout-btn bg-red">Logout</button>
@@ -189,13 +245,14 @@
 		<div class="inner small-inner">
 			<div class="container">
 				<h3 class="inner-subtitle text-center">Premium WordPress Themes, Web Templates and Many More ...</h3>
-				<form action="">
+				<form>
 					<div class="search-wrap">
 						<input class="search-input" name="search" id="search" type="text" placeholder="Search Your Keywords ..." />
 						<button class="search-input-btn"><i class="fas fa-search"></i></button>
 					</div>
 					<!-- /.search-wrap -->	
 				</form>
+				<!-- /form -->
 			</div>
 			<!-- /.container -->   
 		</div>
@@ -203,9 +260,7 @@
 		<div class="content-wrapper all-items-wrap">
             <div class="container">
                 <ul class="breadcrumb">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
+                    <li><a href="index.html">Home</a></li>
                     <li class="active">Product page</li>
                 </ul>
                 <!-- /.breadcrumb -->
@@ -374,7 +429,7 @@
 								<span>Sort by: New Items</span>
 								<i class="fas fa-sort"></i>
 							</div>
-							<!-- /.sort-wrap -->
+							<!-- /.sort-wrap mr-auto -->
 							<div class="grid-wrap">
 								<i class="fas fa-th-large active"></i>
 								<i class="fas fa-th-list"></i>
@@ -386,14 +441,14 @@
                             <div class="col-lg-4">
                                 <div class="card bg-white">
                                     <div class="card-img">
-                                        <a href="#">
-                                            <img src="img/card-item-img.jpg" alt="" />
+                                        <a href="product-details.html">
+                                            <img src="img/card-item-img.jpg" alt="Product" />
                                         </a>
                                     </div>
                                     <!-- /.card-img -->
                                     <div class="card-description d-flex">
                                         <div class="card-item-info">
-                                            <a href="#" class="card-title">WISTIA Corporate</a>
+                                            <a href="product-details.html" class="card-title">WISTIA Corporate</a>
                                             <span class="card-category">WordPress</span>
 										</div>
 										<!-- /.card-item-info -->
@@ -402,7 +457,7 @@
                                     <!-- /.card-description d-flex -->
                                     <div class="card-author-info d-flex align-items-center">
                                         <div class="card-author">
-                                            <img src="img/user-avatar.png" alt="" />
+                                            <img src="img/user-avatar.png" alt="User" />
                                             <span>PsdBosS</span>
                                         </div>
                                         <!-- /.card-author -->
@@ -424,14 +479,14 @@
                             <div class="col-lg-4">
                                 <div class="card bg-white">
                                     <div class="card-img">
-                                        <a href="#">
-                                            <img src="img/card-item-img.jpg" alt="">
+                                        <a href="product-details.html">
+                                            <img src="img/card-item-img.jpg" alt="Product">
                                         </a>
                                     </div>
                                     <!-- /.card-img -->
                                     <div class="card-description d-flex">
                                         <div class="card-item-info">
-                                            <a href="#" class="card-title">Cartoon Face</a>
+                                            <a href="product-details.html" class="card-title">Cartoon Face</a>
                                             <span class="card-category">Illsatration</span>
 										</div>
 										<!-- /.card-item-info -->
@@ -440,7 +495,7 @@
                                     <!-- /.card-description d-flex -->
                                     <div class="card-author-info d-flex align-items-center">
                                         <div class="card-author">
-                                            <img src="img/user-avatar.png" alt="">
+                                            <img src="img/user-avatar.png" alt="User">
                                             <span>Mikestro</span>
                                         </div>
                                         <!-- /.card-author -->
@@ -462,14 +517,14 @@
                             <div class="col-lg-4">
                                 <div class="card bg-white">
                                     <div class="card-img">
-                                        <a href="#">
-                                            <img src="img/card-item-img.jpg" alt="">
+                                        <a href="product-details.html">
+                                            <img src="img/card-item-img.jpg" alt="Product">
                                         </a>
                                     </div>
                                     <!-- /.card-img -->
                                     <div class="card-description d-flex">
                                         <div class="card-item-info">
-                                            <a href="#" class="card-title">Food Menu</a>
+                                            <a href="product-details.html" class="card-title">Food Menu</a>
                                             <span class="card-category">Plugins</span>
 										</div>
 										<!-- /.card-item-info -->
@@ -478,7 +533,7 @@
                                     <!-- /.card-description d-flex -->
                                     <div class="card-author-info d-flex align-items-center">
                                         <div class="card-author">
-                                            <img src="img/user-avatar.png" alt="">
+                                            <img src="img/user-avatar.png" alt="User">
                                             <span>Gimsz</span>
                                         </div>
                                         <!-- /.card-author -->
@@ -500,14 +555,14 @@
                             <div class="col-lg-4">
                                 <div class="card bg-white">
                                     <div class="card-img">
-                                        <a href="#">
-                                            <img src="img/card-item-img.jpg" alt="">
+                                        <a href="product-details.html">
+                                            <img src="img/card-item-img.jpg" alt="Product">
                                         </a>
                                     </div>
                                     <!-- /.card-img -->
                                     <div class="card-description d-flex">
                                         <div class="card-item-info">
-                                            <a href="#" class="card-title">Grand Ballet - Dance</a>
+                                            <a href="product-details.html" class="card-title">Grand Ballet - Dance</a>
                                             <span class="card-category">PSD Template</span>
 										</div>
 										<!-- /.card-item-info -->
@@ -516,7 +571,7 @@
                                     <!-- /.card-description d-flex -->
                                     <div class="card-author-info d-flex align-items-center">
                                         <div class="card-author">
-                                            <img src="img/user-avatar.png" alt="">
+                                            <img src="img/user-avatar.png" alt="User">
                                             <span>Greenta9</span>
                                         </div>
                                         <!-- /.card-author -->
@@ -538,14 +593,14 @@
                             <div class="col-lg-4">
                                 <div class="card bg-white">
                                     <div class="card-img">
-                                        <a href="#">
-                                            <img src="img/card-item-img.jpg" alt="">
+                                        <a href="product-details.html">
+                                            <img src="img/card-item-img.jpg" alt="Product">
                                         </a>
                                     </div>
                                     <!-- /.card-img -->
                                     <div class="card-description d-flex">
                                         <div class="card-item-info">
-                                            <a href="#" class="card-title">Mockup Desing</a>
+                                            <a href="product-details.html" class="card-title">Mockup Desing</a>
                                             <span class="card-category">PSD Template</span>
 										</div>
 										<!-- /.card-item-info -->
@@ -554,7 +609,7 @@
                                     <!-- /.card-description d-flex -->
                                     <div class="card-author-info d-flex align-items-center">
                                         <div class="card-author">
-                                            <img src="img/user-avatar.png" alt="">
+                                            <img src="img/user-avatar.png" alt="User">
                                             <span>D9ten</span>
                                         </div>
                                         <!-- /.card-author -->
@@ -576,14 +631,14 @@
                             <div class="col-lg-4">
                                 <div class="card bg-white">
                                     <div class="card-img">
-                                        <a href="#">
-                                            <img src="img/card-item-img.jpg" alt="">
+                                        <a href="product-details.html">
+                                            <img src="img/card-item-img.jpg" alt="Product">
                                         </a>
                                     </div>
                                     <!-- /.card-img -->
                                     <div class="card-description d-flex">
                                         <div class="card-item-info">
-                                            <a href="#" class="card-title">Responsive APP</a>
+                                            <a href="product-details.html" class="card-title">Responsive APP</a>
                                             <span class="card-category">Site Template</span>
 										</div>
 										<!-- /.card-item-info -->
@@ -592,7 +647,7 @@
                                     <!-- /.card-description d-flex -->
                                     <div class="card-author-info d-flex align-items-center">
                                         <div class="card-author">
-                                            <img src="img/user-avatar.png" alt="">
+                                            <img src="img/user-avatar.png" alt="User">
                                             <span>PsdBosS</span>
                                         </div>
                                         <!-- /.card-author -->
@@ -614,14 +669,14 @@
                             <div class="col-lg-4">
                                 <div class="card bg-white">
                                     <div class="card-img">
-                                        <a href="#">
-                                            <img src="img/card-item-img.jpg" alt="">
+                                        <a href="product-details.html">
+                                            <img src="img/card-item-img.jpg" alt="Product">
                                         </a>
                                     </div>
                                     <!-- /.card-img -->
                                     <div class="card-description d-flex">
                                         <div class="card-item-info">
-                                            <a href="#" class="card-title">Business Template</a>
+                                            <a href="product-details.html" class="card-title">Business Template</a>
                                             <span class="card-category">Joomla</span>
 										</div>
 										<!-- /.card-item-info -->
@@ -630,7 +685,7 @@
                                     <!-- /.card-description d-flex -->
                                     <div class="card-author-info d-flex align-items-center">
                                         <div class="card-author">
-                                            <img src="img/user-avatar.png" alt="">
+                                            <img src="img/user-avatar.png" alt="User">
                                             <span>PsdBosS</span>
                                         </div>
                                         <!-- /.card-author -->
@@ -652,14 +707,14 @@
                             <div class="col-lg-4">
                                 <div class="card bg-white">
                                     <div class="card-img">
-                                        <a href="#">
-                                            <img src="img/card-item-img.jpg" alt="">
+                                        <a href="product-details.html">
+                                            <img src="img/card-item-img.jpg" alt="Product">
                                         </a>
                                     </div>
                                     <!-- /.card-img -->
                                     <div class="card-description d-flex">
                                         <div class="card-item-info">
-                                            <a href="#" class="card-title">Flat Design</a>
+                                            <a href="product-details.html" class="card-title">Flat Design</a>
                                             <span class="card-category">PSD Template</span>
 										</div>
 										<!-- /.card-item-info -->
@@ -668,7 +723,7 @@
                                     <!-- /.card-description d-flex -->
                                     <div class="card-author-info d-flex align-items-center">
                                         <div class="card-author">
-                                            <img src="img/user-avatar.png" alt="">
+                                            <img src="img/user-avatar.png" alt="User">
                                             <span>PsdBosS</span>
                                         </div>
                                         <!-- /.card-author -->
@@ -690,14 +745,14 @@
                             <div class="col-lg-4">
                                 <div class="card bg-white">
                                     <div class="card-img">
-                                        <a href="#">
-                                            <img src="img/card-item-img.jpg" alt="">
+                                        <a href="product-details.html">
+                                            <img src="img/card-item-img.jpg" alt="Product">
                                         </a>
                                     </div>
                                     <!-- /.card-img -->
                                     <div class="card-description d-flex">
                                         <div class="card-item-info">
-                                            <a href="#" class="card-title">Gymedge</a>
+                                            <a href="product-details.html" class="card-title">Gymedge</a>
                                             <span class="card-category">WordPress</span>
 										</div>
 										<!-- /.card-item-info -->
@@ -706,7 +761,7 @@
                                     <!-- /.card-description d-flex -->
                                     <div class="card-author-info d-flex align-items-center">
                                         <div class="card-author">
-                                            <img src="img/user-avatar.png" alt="">
+                                            <img src="img/user-avatar.png" alt="User">
                                             <span>PsdBosS</span>
                                         </div>
                                         <!-- /.card-author -->
@@ -728,14 +783,14 @@
 							<div class="col-lg-4">
 								<div class="card bg-white">
 									<div class="card-img">
-										<a href="#">
-											<img src="img/card-item-img.jpg" alt="">
+										<a href="product-details.html">
+											<img src="img/card-item-img.jpg" alt="Product">
 										</a>
 									</div>
 									<!-- /.card-img -->
 									<div class="card-description d-flex">
 										<div class="card-item-info">
-											<a href="#" class="card-title">Grand Ballet - Dance</a>
+											<a href="product-details.html" class="card-title">Grand Ballet - Dance</a>
 											<span class="card-category">PSD Template</span>
 										</div>
 										<!-- /.card-item-info -->
@@ -744,7 +799,7 @@
 									<!-- /.card-description d-flex -->
 									<div class="card-author-info d-flex align-items-center">
 										<div class="card-author">
-											<img src="img/user-avatar.png" alt="">
+											<img src="img/user-avatar.png" alt="User">
 											<span>PsdBosS</span>
 										</div>
 										<!-- /.card-author -->
@@ -766,14 +821,14 @@
 							<div class="col-lg-4">
 								<div class="card bg-white">
 									<div class="card-img">
-										<a href="#">
-											<img src="img/card-item-img.jpg" alt="">
+										<a href="product-details.html">
+											<img src="img/card-item-img.jpg" alt="Product">
 										</a>
 									</div>
 									<!-- /.card-img -->
 									<div class="card-description d-flex">
 										<div class="card-item-info">
-											<a href="#" class="card-title">The Post Grid</a>
+											<a href="product-details.html" class="card-title">The Post Grid</a>
 											<span class="card-category">Component</span>
 										</div>
 										<!-- /.card-item-info -->
@@ -782,7 +837,7 @@
 									<!-- /.card-description d-flex -->
 									<div class="card-author-info d-flex align-items-center">
 										<div class="card-author">
-											<img src="img/user-avatar.png" alt="">
+											<img src="img/user-avatar.png" alt="User">
 											<span>PsdBosS</span>
 										</div>
 										<!-- /.card-author -->
@@ -804,14 +859,14 @@
 							<div class="col-lg-4">
 								<div class="card bg-white">
 									<div class="card-img">
-										<a href="#">
-											<img src="img/card-item-img.jpg" alt="">
+										<a href="product-details.html">
+											<img src="img/card-item-img.jpg" alt="Product">
 										</a>
 									</div>
 									<!-- /.card-img -->
 									<div class="card-description d-flex">
 										<div class="card-item-info">
-											<a href="#" class="card-title">Grand Ballet - Dance</a>
+											<a href="product-details.html" class="card-title">Grand Ballet - Dance</a>
 											<span class="card-category">PSD Template</span>
 										</div>
 										<!-- /.card-item-info -->
@@ -820,7 +875,7 @@
 									<!-- /.card-description d-flex -->
 									<div class="card-author-info d-flex align-items-center">
 										<div class="card-author">
-											<img src="img/user-avatar.png" alt="">
+											<img src="img/user-avatar.png" alt="User">
 											<span>PsdBosS</span>
 										</div>
 										<!-- /.card-author -->
@@ -848,15 +903,20 @@
                                     <li class="page-item"><a class="page-link" href="#">2</a></li>
                                     <li class="page-item"><a class="page-link" href="#">3</a></li>
                                     <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                </ul>
-                            </nav>
+								</ul>
+								<!-- /.pagination -->
+							</nav>
+							<!-- /nav -->
                         </div>
                         <!-- /.pagination-wrap -->
-                    </div>
-                </div>
-            </div>
+					</div>
+					<!-- /.col-md-9 -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
         </div>
-        <!-- /.content-wrapper -->
+        <!-- /.content-wrapper all-items-wrap -->
 	</main>
 	<!-- /#main -->
 
@@ -875,7 +935,7 @@
 					<!-- /.footer-address d-flex -->
 					<span class="footer-phone d-flex">
 						<i class="fas fa-phone"></i>
-						<a href="tel:+61383766284">+61 3 8376 6284</a>
+						<a href="tel:+61383766284">+61 3 8376 6284</a>   
 					</span>
 					<!-- /.footer-phone d-flex -->
 				</div>

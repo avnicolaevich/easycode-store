@@ -190,6 +190,17 @@
 	font: 15px/40px 'robotoregular', sans-serif;
 	color: #707070;
 }
+.aside-product-price .jq-selectbox {
+	width: 82px;
+}
+.aside-product-price .jq-selectbox__select {
+	height: 27px;
+	padding: 0 0 0 10px;
+	border: 1px solid #d5d5d5;
+	background-color: #fff;
+	font: 13px/24px 'robotoregular', sans-serif;
+	color: #70838d;
+}
 /* .jq-selectbox__select:active {
 	background: #F5F5F5;
 	box-shadow: inset 1px 1px 3px #DDD;
@@ -209,6 +220,12 @@
 }
 .jq-selectbox .placeholder {
 	color: #888;
+}
+.aside-product-price .jq-selectbox__trigger {
+	width: 26px;
+}
+.aside-product-price .jq-selectbox__trigger-arrow {
+	border-top: 5px solid #8bc34a;
 }
 .jq-selectbox__trigger {
 	position: absolute;

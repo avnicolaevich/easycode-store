@@ -40,15 +40,15 @@
 			<!-- /.need-help ml-auto -->
 			<div class="user-controls d-flex align-items-center">
 				<div class="dropdown-item">
-					<div class="dropdown-control d-flex" id="dropdownMenuLink" data-toggle="dropdown">
+					<div class="dropdown-control d-flex" id="dropdownMenuBell" data-toggle="dropdown">
 						<i class="far fa-bell mx-auto my-auto"></i>
 						<span class="notify-count bg-light-orange">8</span>
 					</div>
 					<!-- /.dropdown-control d-flex -->
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-						<a href="#" class="dropdown-notify-item d-flex">
+					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuBell">
+						<a href="#" class="dropdown-notify-item d-flex align-items-center">
 							<div class="notify-item-avatar">
-								<img src="img/notify-avatar.png" alt="">
+								<img src="img/notify-avatar.png" alt="User">
 							</div>
 							<!-- /.notify-item-avatar -->
 							<div class="notify-item-info">
@@ -59,9 +59,9 @@
 							<i class="far fa-bell ml-auto"></i>
 						</a>
 						<!-- /.dropdown-notify-item -->
-						<a href="#" class="dropdown-notify-item d-flex">
+						<a href="#" class="dropdown-notify-item d-flex align-items-center">
 							<div class="notify-item-avatar">
-								<img src="img/notify-avatar.png" alt="">
+								<img src="img/notify-avatar.png" alt="User">
 							</div>
 							<!-- /.notify-item-avatar -->
 							<div class="notify-item-info">
@@ -72,9 +72,9 @@
 							<i class="far fa-bell ml-auto"></i>
 						</a>
 						<!-- /.dropdown-notify-item -->
-						<a href="#" class="dropdown-notify-item d-flex">
+						<a href="#" class="dropdown-notify-item d-flex align-items-center">
 							<div class="notify-item-avatar">
-								<img src="img/notify-avatar.png" alt="">
+								<img src="img/notify-avatar.png" alt="User">
 							</div>
 							<!-- /.notify-item-avatar -->
 							<div class="notify-item-info">
@@ -98,7 +98,7 @@
 					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuEnvelope">
 						<a href="#" class="dropdown-notify-item d-flex align-items-center">
 							<div class="notify-item-avatar">
-								<img src="img/notify-avatar.png" alt="">
+								<img src="img/notify-avatar.png" alt="User">
 							</div>
 							<!-- /.notify-item-avatar -->
 							<div class="notify-item-info">
@@ -112,7 +112,7 @@
 						<!-- /.dropdown-notify-item -->
 						<a href="#" class="dropdown-notify-item d-flex align-items-center">
 							<div class="notify-item-avatar">
-								<img src="img/notify-avatar.png" alt="">
+								<img src="img/notify-avatar.png" alt="User">
 							</div>
 							<!-- /.notify-item-avatar -->
 							<div class="notify-item-info">
@@ -126,7 +126,7 @@
 						<!-- /.dropdown-notify-item -->
 						<a href="#" class="dropdown-notify-item d-flex align-items-center">
 							<div class="notify-item-avatar">
-								<img src="img/notify-avatar.png" alt="">
+								<img src="img/notify-avatar.png" alt="User">
 							</div>
 							<!-- /.notify-item-avatar -->
 							<div class="notify-item-info">
@@ -143,20 +143,76 @@
 				</div>
 				<!-- /.dropdown-item -->
 				<div class="dropdown-item">
-					<div class="dropdown-control d-flex">
+					<div class="dropdown-control d-flex" id="dropdownMenuShopping" data-toggle="dropdown">
 						<i class="fas fa-shopping-cart mx-auto my-auto"></i>
 						<span class="notify-count bg-green">8</span>
 					</div>
 					<!-- /.dropdown-control d-flex -->
+					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuShopping">
+						<a href="#" class="dropdown-notify-item d-flex align-items-center">
+							<div class="notify-item-avatar">
+								<img src="img/dropdown-cart-avatar.jpg" alt="User">
+							</div>
+							<!-- /.notify-item-avatar -->
+							<div class="notify-item-info">
+								<h4>Grand Ballet</h4>
+								<h6>WordPress</h6>
+								<span class="notify-price">$59</span>
+							</div>
+							<!-- /.notify-item-info -->
+						</a>
+						<!-- /.dropdown-notify-item -->
+						<a href="#" class="dropdown-notify-item d-flex align-items-center">
+							<div class="notify-item-avatar">
+								<img src="img/dropdown-cart-avatar.jpg" alt="User">
+							</div>
+							<!-- /.notify-item-avatar -->
+							<div class="notify-item-info">
+								<h4>Apple Device </h4>
+								<h6>WordPress</h6>
+								<span class="notify-price">$59</span>
+							</div>
+							<!-- /.notify-item-info -->
+						</a>
+						<!-- /.dropdown-notify-item -->
+						<a href="#" class="dropdown-notify-item d-flex">
+							<div class="notify-item-result d-flex">
+								<span>Total</span>
+								<span class="ml-auto">$118</span>
+							</div>
+							<!-- /.notify-item-info -->
+						</a>
+						<!-- /.dropdown-notify-item -->
+						<div class="dropdown-buttons-wrap d-flex">
+							<a href="#" class="btn notify-btn bg-green">Go to Cart</a>
+							<a href="#" class="btn notify-btn bg-red">Go to Checkout</a>
+						</div>
+						<!-- /.dropdown-buttons-wrap -->
+					</div>
+					<!-- /.dropdown-menu -->
 				</div>
 				<!-- /.dropdown-item -->
 				<div class="user-dropdown-control d-flex align-items-center">
 					<img src="img/user-avatar.png" alt="" class="user-avatar">
-					<div class="user-info-wrap">
+					<div class="user-info-wrap" id="dropdownMenuProfile" data-toggle="dropdown">
 						<h6>Mike Hussy <i class="fas fa-chevron-down"></i></h6>
 						<span class="balance">$171.00</span>
 					</div>
 					<!-- /.user-info-wrap -->
+					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuProfile">
+						<ul class="dropdown-chevron-list">
+							<li class="d-flex align-items-center"><i class="fas fa-chevron-right"></i><a href="#">Profile Page</a></li>
+							<li class="d-flex align-items-center"><i class="fas fa-chevron-right"></i><a href="#">Profile</a></li>
+							<li class="d-flex align-items-center"><i class="fas fa-chevron-right"></i><a href="#">Account Setting</a></li>
+							<li class="d-flex align-items-center"><i class="fas fa-chevron-right"></i><a href="#">Downloads</a></li>
+							<li class="d-flex align-items-center"><i class="fas fa-chevron-right"></i><a href="#">Wishlist</a></li>
+							<li class="d-flex align-items-center"><i class="fas fa-chevron-right"></i><a href="upload-product.html">Upload Item</a></li>
+							<li class="d-flex align-items-center"><i class="fas fa-chevron-right"></i><a href="#">Statement</a></li>
+							<li class="d-flex align-items-center"><i class="fas fa-chevron-right"></i><a href="#">Withdraws</a></li>
+						</ul>
+						<!-- /.footer-chevron-list -->
+					</div>
+					<!-- /.dropdown-menu -->
 				</div>
 				<!-- /.user-dropdown-control d-flex align-items-center -->
 				<button class="btn logout-btn bg-red">Logout</button>
@@ -189,6 +245,7 @@
 		<div class="inner small-inner">
 			<div class="container">
 				<h3 class="inner-subtitle text-center">Premium WordPress Themes, Web Templates and Many More ...</h3>
+				<!-- /.inner-subtitle text-center -->
 				<form action="">
 					<div class="search-wrap">
 						<input class="search-input" name="search" id="search" type="text" placeholder="Search Your Keywords ..." />
@@ -196,6 +253,7 @@
 					</div>
 					<!-- /.search-wrap -->	
 				</form>
+				<!-- /form -->
 			</div>
 			<!-- /.container -->
 		</div>
@@ -203,15 +261,14 @@
 		<div class="content-wrapper">
             <div class="container">
                 <ul class="breadcrumb">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li class="active">Product page GT Builder Construction</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">Upload Product</li>
                 </ul>
 				<!-- /.breadcrumb -->
 				<div class="upload-product-content bg-white border-grey">
 					<form>
 						<h3 class="head-title">Upload Your item</h3>
+						<!-- /.head-title -->
 						<div class="form-body">
 							<div class="row">
 								<div class="col-3">
@@ -312,6 +369,7 @@
 						</div>
 						<!-- /.form-body -->
 						<h3 class="head-title">Set Your Price (US$)</h3>
+						<!-- /.head-title -->
 						<div class="form-body">
 							<div class="row">
 								<div class="col-3">
@@ -345,9 +403,11 @@
 						</div>
 						<!-- /.form-body -->
 					</form>
+					<!-- /form -->
 				</div>
 				<!-- /.upload-product-content -->
-            </div>
+			</div>
+			<!-- /.container -->
         </div>
         <!-- /.content-wrapper -->
 	</main>
