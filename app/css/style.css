@@ -1108,6 +1108,78 @@ textarea.form-control {
 .new-product-tabs {
 	margin-bottom: 45px;
 }
+.new-products-btn-wrap {
+	text-align: center;
+	margin-bottom: 110px;
+}
+.btn.new-product-btn {
+	font-size: 1rem;
+	color: #263238;
+	padding: 18px 33px;
+	-webkit-box-shadow: 0 1px 3px rgba(204, 216, 228, .75);
+	   -moz-box-shadow: 0 1px 3px rgba(204, 216, 228, .75);
+	        box-shadow: 0 1px 3px rgba(204, 216, 228, .75);
+	-webkit-transition: all .1s ease-in;
+	-o-transition: all .1s ease-in;
+	-moz-transition: all .1s ease-in;
+	transition: all .1s ease-in;
+}
+.btn.new-product-btn:hover {
+	-webkit-box-shadow: 0 16px 20px rgba(216, 216, 216, .75);
+	   -moz-box-shadow: 0 16px 20px rgba(216, 216, 216, .75);
+	        box-shadow: 0 16px 20px rgba(216, 216, 216, .75);
+}
+.new-products-btn-wrap .btn + .btn {
+	margin-left: 8px;
+}
+.trend-products {
+	padding-top: 125px;
+	padding-left: 30px;
+}
+.trend-products h3 {
+	margin-top: 0;
+}
+.trend-products .card {
+	width: 440px;
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+	        box-shadow: none;
+}
+.trend-products-carousel {
+	padding-bottom: 205px;
+}
+.slick-dots {
+	position: absolute;
+	bottom: 120px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	   -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	     -o-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	line-height: 0;
+}
+.slick-dots li {
+	display: inline-block;
+}
+.slick-dots li + li {
+	margin-left: 3px;
+}
+.slick-dots li button {
+	color: transparent;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #e8e8e8;
+	-webkit-border-radius: 50%;
+	   -moz-border-radius: 50%;
+	        border-radius: 50%;
+	background-color: #e8e8e8;
+	cursor: pointer;
+}
+.slick-dots li.slick-active button {
+	background-color: #8bc34a;
+	border: 1px solid #8bc34a;
+}
 /* new product end*/
 /* footer start*/
 #footer {
