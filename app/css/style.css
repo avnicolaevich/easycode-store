@@ -855,12 +855,6 @@
 	line-height: 27px;
 	color: #e74c3c;
 }
-/* .aside-product-price .custom-select {
-	font-size: 0.8125rem;
-	color: #70838d;
-	padding-right: 10px;
-	padding-left: 10px;
-} */
 .aside-author {
 	margin-top: 25px;
 	margin-bottom: 25px;
@@ -1063,6 +1057,58 @@ textarea.form-control {
 	        border-radius: 0;
 }
 /* upload product end */
+/* new product strat*/
+.new-product-title {
+	font-family: 'robotobold', sans-serif;
+	font-size: 2.25rem;
+	color: #263238;
+	line-height: 1em;
+	margin-top: 120px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.new-product-tabs .card {
+	margin-bottom: 30px;
+}
+.new-product-tabs .nav-tabs {
+	text-align: center;
+	margin-bottom: 60px;
+}
+.new-product-tabs .nav-link {
+	font-family: 'robotomedium', sans-serif;
+	font-size: 0.875rem;
+	color: #263238;
+	padding: 13px 22px 10px;
+    text-align: center;
+    display: block;
+    border: none;
+    background-color: #fff;
+    position: relative;
+}
+.new-product-tabs .nav-link.active::after {
+	display: none;
+}
+.new-product-tabs .nav-link.active {
+	color: #fff;
+	background-color: #e74c3c;
+}
+.new-product-tabs .nav-item {
+	display: inline-block;
+}
+.new-product-tabs .nav-item + .nav-item {
+	border: none;
+	margin-left: 2px;
+}
+.new-product-tabs .tab-pane.show {
+	padding: 0 30px;
+}
+.new-product-tabs .card-title {
+	font-size: 1.125rem;
+}
+.new-product-tabs {
+	margin-bottom: 45px;
+}
+/* new product end*/
 /* footer start*/
 #footer {
 	padding-top: 115px;
