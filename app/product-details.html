@@ -7,20 +7,8 @@
 	<title>Store</title>
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-	<!-- Bootstrap reboot -->
-	<link rel="stylesheet" href="css/bootstrap-reboot.css">
-	<!-- Bootstrap grid -->
-	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
-	<!-- Ion range styles -->
-	<link rel="stylesheet" href="css/ion.rangeSlider.css">
-	<link rel="stylesheet" href="css/ion.rangeSlider.skinNice.css">
-	<!-- Sprite style -->
-	<link rel="stylesheet" href="css/sprite.css">
-	<!-- jQuery form styler -->
-	<link rel="stylesheet" href="css/jquery.formstyler.css">
-	<link rel="stylesheet" href="css/jquery.formstyler.theme.css">
 	<!-- Custom style -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 	<header id="header">
@@ -264,9 +252,15 @@
                     <li><a href="index.html">Home</a></li>
                     <li class="active">Product page GT Builder Construction</li>
                 </ul>
-                <!-- /.breadcrumb -->
+				<!-- /.breadcrumb -->
+				<div class="overlay"></div>
+				<!-- /.overlay -->
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-12 col-lg-9">
+						<div class="mobile-aside-toggle">
+							<i class="fab fa-elementor"></i>
+						</div>
+						<!-- /.mobile-aside-toggle -->
 						<div class="product-info-wrap">
 							<div class="product-baner">
 								<img src="img/product-baner.jpg" alt="Product">
@@ -594,7 +588,8 @@
 						<!-- /.product-info-wrap -->
 					</div>
 					<!-- /.col-md-9 -->
-					<div class="col-md-3">
+					<div class="col-12 col-lg-3 mobile-aside right">
+						<button class="close-mobile-aside"><i class="fas fa-times"></i></button>
 						<aside id="aside">
 							<div class="aside-section bg-white border-grey">
 								<h3 class="aside-title">Product Price</h3>
@@ -763,12 +758,14 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<!-- Bootstrap js -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<script src="js/lib/bootstrap.min.js"></script>
 	<!-- Ion range slider -->
-	<script src="js/ion.rangeSlider.min.js"></script>
+	<script src="js/lib/ion.rangeSlider.min.js"></script>
 	<!-- jQuery form styler -->
-	<script src="js/jquery.formstyler.min.js"></script>
+	<script src="js/lib/jquery.formstyler.min.js"></script>
+	<!-- Slick slider -->
+	<script src="js/lib/slick.min.js"></script>
 	<!-- Initial js -->
-	<script src="js/init.js"></script>
+	<script src="js/main/init.js"></script>
 </body>
 </html>
