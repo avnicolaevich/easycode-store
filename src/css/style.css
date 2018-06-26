@@ -281,6 +281,11 @@
 .mobile-aside-toggle {
 	display: none;
 }
+.mobile-aside-toggle i {
+	color: #455a64;
+	cursor: pointer;
+	margin-right: 14px;
+}
 .close-mobile-aside {
 	display: none;
 }
@@ -955,7 +960,7 @@
 	color: #263238;
 }
 .nav-link.active {
-	color: #263238;
+	color: #263238;   
 }
 .nav-link::after {
 	content: "";
@@ -1088,7 +1093,7 @@ textarea.form-control {
 	padding-left: 30px;
 }
 .trend-products .card {
-	width: 440px;
+	max-width: 440px;
 	box-shadow: none;
 }
 .trend-products-carousel {
@@ -1320,5 +1325,21 @@ textarea.form-control {
 	border-top: 1px solid #919699;
 	margin-top: 100px;
 }
+@media (max-width: 991px) {
+	#footer {
+		padding-top: 50px;
+	}
+}
 /* footer end*/
+@media (max-width: 991px) {
+	.bottom-header {
+		display: none;
+	}
+	.slicknav_menu {
+		display: block;
+	}
+	.slicknav_nav {
+		top: 50px;
+	}
+}
 /* ===== Custom styles end ===== */

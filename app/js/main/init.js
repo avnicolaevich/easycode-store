@@ -54,5 +54,11 @@
 			]
 		});
 	}
+
+	// init slicknav
+	$('.header-nav').slicknav({
+		appendTo: "#header .top-header.container",
+		label: "",
+	});
 	
 })(jQuery);
