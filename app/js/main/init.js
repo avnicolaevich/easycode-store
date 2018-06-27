@@ -57,7 +57,7 @@
 
 	// init slicknav
 	$('.header-nav').slicknav({
-		appendTo: "#header .top-header.container",
+		appendTo: "#header .top-header .user-controls",
 		label: "",
 	});
 	
