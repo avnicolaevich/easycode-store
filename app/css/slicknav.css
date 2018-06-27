@@ -126,6 +126,11 @@
   	text-align: center;
     z-index: 100;
 }
+@media (max-width: 575px) {
+	.slicknav_nav {
+		top: 286px;
+	}
+}
 .slicknav_nav ul {
     list-style: none;
     overflow: hidden;

@@ -717,6 +717,9 @@
 	.dropdown-menu.show {
 		top: 124px!important;
 	}
+	.user-dropdown-control > .dropdown-menu.show {
+		top: 75px!important;
+	}
 }
 /* header end */
 /* inner start */
@@ -815,6 +818,47 @@
 .aside-section .search-btn .fas {
 	margin-right: 10px;
 }
+@media (max-width: 1199px) {
+	.aside-card-author-info {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		   -moz-box-orient: vertical;
+		   -moz-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+    	-webkit-box-pack: center;
+    	-webkit-justify-content: center;
+    	   -moz-box-pack: center;
+    	    -ms-flex-pack: center;
+    	        justify-content: center;
+	}
+	.aside-card-item-info,
+	.aside-card-img {
+		text-align: center;
+	}
+	.aside-product-rating {
+		margin-left: inherit;
+	}
+	.aside-card-price {
+		margin: auto;
+	}
+	.aside-card-title {
+		display: block;
+	}
+	.aside-card-description {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		   -moz-box-orient: vertical;
+		   -moz-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.pagination-wrap {
+		position: static;
+	}
+}
 /* aside end */
 /* all-items */
 .content-wrapper.all-items-wrap {
@@ -853,6 +897,11 @@
 .pagination-wrap {
 	position: absolute;
     bottom: 1px;
+}
+@media (max-width: 1199px) {
+	.pagination-wrap {
+		position: static;
+	}
 }
 @media (max-width: 575px) {
 	.mobile-aside-toggle i {
@@ -1564,45 +1613,6 @@ textarea.form-control {
 	margin-top: 100px;
 }
 @media (max-width: 1199px) {
-	.aside-card-author-info {
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-webkit-flex-direction: column;
-		   -moz-box-orient: vertical;
-		   -moz-box-direction: normal;
-		    -ms-flex-direction: column;
-		        flex-direction: column;
-    	-webkit-box-pack: center;
-    	-webkit-justify-content: center;
-    	   -moz-box-pack: center;
-    	    -ms-flex-pack: center;
-    	        justify-content: center;
-	}
-	.aside-card-item-info,
-	.aside-card-img {
-		text-align: center;
-	}
-	.aside-product-rating {
-		margin-left: inherit;
-	}
-	.aside-card-price {
-		margin: auto;
-	}
-	.aside-card-title {
-		display: block;
-	}
-	.aside-card-description {
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-webkit-flex-direction: column;
-		   -moz-box-orient: vertical;
-		   -moz-box-direction: normal;
-		    -ms-flex-direction: column;
-		        flex-direction: column;
-	}
-	.pagination-wrap {
-		position: static;
-	}
 	#footer {
 		padding-top: 0;
 	}
