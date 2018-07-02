@@ -22,7 +22,7 @@
 	if ($(".trend-products-carousel").length) {
 		$(".trend-products-carousel").slick({
 			dots: true,
-			infinite: true,
+			infinite: false,
 			speed: 300,
 			slidesToShow: 4,
 			slidesToScroll: 1,
